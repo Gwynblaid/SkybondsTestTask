@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AAC5D0370290F2AD18037B8 /* Pods_SkybondsTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AC333BA4354B568BE61B9 /* Pods_SkybondsTestTaskTests.framework */; };
 		8461063E23786FF6003C2532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461063D23786FF6003C2532 /* AppDelegate.swift */; };
 		8461064023786FF6003C2532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461063F23786FF6003C2532 /* SceneDelegate.swift */; };
 		8461064223786FF6003C2532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461064123786FF6003C2532 /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		8461064723786FF8003C2532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461064623786FF8003C2532 /* Assets.xcassets */; };
 		8461064A23786FF8003C2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064823786FF8003C2532 /* LaunchScreen.storyboard */; };
 		8461065523786FF8003C2532 /* SkybondsTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */; };
+		E2C797B356B81D2086FC047C /* Pods_SkybondsTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F2DD04CA3F2AE79603C787 /* Pods-SkybondsTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTask.debug.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		2B4AC333BA4354B568BE61B9 /* Pods_SkybondsTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkybondsTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D6F8CE175C13666FA801A6 /* Pods-SkybondsTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTaskTests/Pods-SkybondsTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		8461063A23786FF6003C2532 /* SkybondsTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkybondsTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461063D23786FF6003C2532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8461063F23786FF6003C2532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		8461065023786FF8003C2532 /* SkybondsTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkybondsTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkybondsTestTaskTests.swift; sourceTree = "<group>"; };
 		8461065623786FF8003C2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTask.release.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkybondsTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTaskTests/Pods-SkybondsTestTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C797B356B81D2086FC047C /* Pods_SkybondsTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAC5D0370290F2AD18037B8 /* Pods_SkybondsTestTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F42CE651023337A8A53B1A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F2DD04CA3F2AE79603C787 /* Pods-SkybondsTestTask.debug.xcconfig */,
+				8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */,
+				F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */,
+				83D6F8CE175C13666FA801A6 /* Pods-SkybondsTestTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8461063123786FF6003C2532 = {
 			isa = PBXGroup;
 			children = (
 				8461063C23786FF6003C2532 /* SkybondsTestTask */,
 				8461065323786FF8003C2532 /* SkybondsTestTaskTests */,
 				8461063B23786FF6003C2532 /* Products */,
+				7F42CE651023337A8A53B1A3 /* Pods */,
+				B00A8FDEC5D453E9E0F146A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,15 @@
 			path = SkybondsTestTaskTests;
 			sourceTree = "<group>";
 		};
+		B00A8FDEC5D453E9E0F146A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */,
+				2B4AC333BA4354B568BE61B9 /* Pods_SkybondsTestTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8461065923786FF8003C2532 /* Build configuration list for PBXNativeTarget "SkybondsTestTask" */;
 			buildPhases = (
+				87378BD1B394E619EA83E678 /* [CP] Check Pods Manifest.lock */,
 				8461063623786FF6003C2532 /* Sources */,
 				8461063723786FF6003C2532 /* Frameworks */,
 				8461063823786FF6003C2532 /* Resources */,
+				1BDC241438972FBC76503AD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8461065C23786FF8003C2532 /* Build configuration list for PBXNativeTarget "SkybondsTestTaskTests" */;
 			buildPhases = (
+				8087D13DE6A773F4E4F1A53F /* [CP] Check Pods Manifest.lock */,
 				8461064C23786FF8003C2532 /* Sources */,
 				8461064D23786FF8003C2532 /* Frameworks */,
 				8461064E23786FF8003C2532 /* Resources */,
@@ -194,6 +229,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BDC241438972FBC76503AD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8087D13DE6A773F4E4F1A53F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkybondsTestTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87378BD1B394E619EA83E678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkybondsTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8461063623786FF6003C2532 /* Sources */ = {
@@ -360,10 +459,12 @@
 		};
 		8461065A23786FF8003C2532 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F2DD04CA3F2AE79603C787 /* Pods-SkybondsTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SkybondsTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +478,12 @@
 		};
 		8461065B23786FF8003C2532 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SkybondsTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +497,7 @@
 		};
 		8461065D23786FF8003C2532 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +519,7 @@
 		};
 		8461065E23786FF8003C2532 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D6F8CE175C13666FA801A6 /* Pods-SkybondsTestTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
