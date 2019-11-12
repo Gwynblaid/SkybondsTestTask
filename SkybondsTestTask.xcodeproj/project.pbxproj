@@ -12,9 +12,16 @@
 		8461064023786FF6003C2532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461063F23786FF6003C2532 /* SceneDelegate.swift */; };
 		8461064223786FF6003C2532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461064123786FF6003C2532 /* ViewController.swift */; };
 		8461064523786FF6003C2532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064323786FF6003C2532 /* Main.storyboard */; };
-		8461064723786FF8003C2532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461064623786FF8003C2532 /* Assets.xcassets */; };
 		8461064A23786FF8003C2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064823786FF8003C2532 /* LaunchScreen.storyboard */; };
 		8461065523786FF8003C2532 /* SkybondsTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */; };
+		84610663237AA4FE003C2532 /* ShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84610662237AA4FE003C2532 /* ShareData.swift */; };
+		84696213237B2A9400701D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461064623786FF8003C2532 /* Assets.xcassets */; };
+		8485C813237AE948000E6E79 /* SharePlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C812237AE948000E6E79 /* SharePlotViewController.swift */; };
+		8485C816237AEB17000E6E79 /* SharePlotPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */; };
+		8485C818237AEB22000E6E79 /* SharePlotInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */; };
+		8485C81A237AEB92000E6E79 /* SharePlotFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C819237AEB92000E6E79 /* SharePlotFactory.swift */; };
+		8485C81E237B0A18000E6E79 /* DataValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C81D237B0A18000E6E79 /* DataValueFormatter.swift */; };
+		8485C820237B1F36000E6E79 /* UIView+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C81F237B1F36000E6E79 /* UIView+Properties.swift */; };
 		E2C797B356B81D2086FC047C /* Pods_SkybondsTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +50,13 @@
 		8461065023786FF8003C2532 /* SkybondsTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkybondsTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkybondsTestTaskTests.swift; sourceTree = "<group>"; };
 		8461065623786FF8003C2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84610662237AA4FE003C2532 /* ShareData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareData.swift; sourceTree = "<group>"; };
+		8485C812237AE948000E6E79 /* SharePlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotViewController.swift; sourceTree = "<group>"; };
+		8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotPresenter.swift; sourceTree = "<group>"; };
+		8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotInteractor.swift; sourceTree = "<group>"; };
+		8485C819237AEB92000E6E79 /* SharePlotFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotFactory.swift; sourceTree = "<group>"; };
+		8485C81D237B0A18000E6E79 /* DataValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValueFormatter.swift; sourceTree = "<group>"; };
+		8485C81F237B1F36000E6E79 /* UIView+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Properties.swift"; sourceTree = "<group>"; };
 		8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTask.release.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask.release.xcconfig"; sourceTree = "<group>"; };
 		DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkybondsTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTaskTests/Pods-SkybondsTestTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +116,9 @@
 		8461063C23786FF6003C2532 /* SkybondsTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				8485C81C237B0A01000E6E79 /* Chart */,
+				8485C814237AE952000E6E79 /* SharePlotComponent */,
+				84610661237AA4EB003C2532 /* Model */,
 				8461063D23786FF6003C2532 /* AppDelegate.swift */,
 				8461063F23786FF6003C2532 /* SceneDelegate.swift */,
 				8461064123786FF6003C2532 /* ViewController.swift */,
@@ -109,6 +126,7 @@
 				8461064623786FF8003C2532 /* Assets.xcassets */,
 				8461064823786FF8003C2532 /* LaunchScreen.storyboard */,
 				8461064B23786FF8003C2532 /* Info.plist */,
+				8485C81F237B1F36000E6E79 /* UIView+Properties.swift */,
 			);
 			path = SkybondsTestTask;
 			sourceTree = "<group>";
@@ -120,6 +138,33 @@
 				8461065623786FF8003C2532 /* Info.plist */,
 			);
 			path = SkybondsTestTaskTests;
+			sourceTree = "<group>";
+		};
+		84610661237AA4EB003C2532 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84610662237AA4FE003C2532 /* ShareData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8485C814237AE952000E6E79 /* SharePlotComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8485C812237AE948000E6E79 /* SharePlotViewController.swift */,
+				8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */,
+				8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */,
+				8485C819237AEB92000E6E79 /* SharePlotFactory.swift */,
+			);
+			path = SharePlotComponent;
+			sourceTree = "<group>";
+		};
+		8485C81C237B0A01000E6E79 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8485C81D237B0A18000E6E79 /* DataValueFormatter.swift */,
+			);
+			path = Chart;
 			sourceTree = "<group>";
 		};
 		B00A8FDEC5D453E9E0F146A5 /* Frameworks */ = {
@@ -216,8 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8461064A23786FF8003C2532 /* LaunchScreen.storyboard in Resources */,
-				8461064723786FF8003C2532 /* Assets.xcassets in Resources */,
 				8461064523786FF6003C2532 /* Main.storyboard in Resources */,
+				84696213237B2A9400701D9B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +345,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8461064223786FF6003C2532 /* ViewController.swift in Sources */,
+				8485C820237B1F36000E6E79 /* UIView+Properties.swift in Sources */,
 				8461063E23786FF6003C2532 /* AppDelegate.swift in Sources */,
 				8461064023786FF6003C2532 /* SceneDelegate.swift in Sources */,
+				8485C81A237AEB92000E6E79 /* SharePlotFactory.swift in Sources */,
+				8485C816237AEB17000E6E79 /* SharePlotPresenter.swift in Sources */,
+				8485C813237AE948000E6E79 /* SharePlotViewController.swift in Sources */,
+				84610663237AA4FE003C2532 /* ShareData.swift in Sources */,
+				8485C818237AEB22000E6E79 /* SharePlotInteractor.swift in Sources */,
+				8485C81E237B0A18000E6E79 /* DataValueFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
