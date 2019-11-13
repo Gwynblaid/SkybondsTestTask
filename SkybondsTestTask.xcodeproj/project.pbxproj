@@ -3,20 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AAC5D0370290F2AD18037B8 /* Pods_SkybondsTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4AC333BA4354B568BE61B9 /* Pods_SkybondsTestTaskTests.framework */; };
+		8407C442237C66B000CCC17E /* SharePlotInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C441237C66B000CCC17E /* SharePlotInteractorTests.swift */; };
+		8407C445237C675F00CCC17E /* SharePlotInteractorDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C444237C675F00CCC17E /* SharePlotInteractorDelegateMock.swift */; };
+		8407C447237C689C00CCC17E /* ShareDataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C446237C689C00CCC17E /* ShareDataSourceMock.swift */; };
+		8407C44F237C726C00CCC17E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C44E237C726C00CCC17E /* AppDelegate.swift */; };
+		8407C451237C726C00CCC17E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C450237C726C00CCC17E /* SceneDelegate.swift */; };
+		8407C453237C726C00CCC17E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C452237C726C00CCC17E /* ViewController.swift */; };
+		8407C456237C726C00CCC17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8407C454237C726C00CCC17E /* Main.storyboard */; };
+		8407C458237C726D00CCC17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407C457237C726D00CCC17E /* Assets.xcassets */; };
+		8407C45B237C726D00CCC17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8407C459237C726D00CCC17E /* LaunchScreen.storyboard */; };
 		8461063E23786FF6003C2532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461063D23786FF6003C2532 /* AppDelegate.swift */; };
 		8461064023786FF6003C2532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461063F23786FF6003C2532 /* SceneDelegate.swift */; };
 		8461064223786FF6003C2532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461064123786FF6003C2532 /* ViewController.swift */; };
 		8461064523786FF6003C2532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064323786FF6003C2532 /* Main.storyboard */; };
-		8461064723786FF8003C2532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461064623786FF8003C2532 /* Assets.xcassets */; };
 		8461064A23786FF8003C2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064823786FF8003C2532 /* LaunchScreen.storyboard */; };
-		8461065523786FF8003C2532 /* SkybondsTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */; };
+		84610663237AA4FE003C2532 /* RandomShareDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84610662237AA4FE003C2532 /* RandomShareDataSource.swift */; };
+		84696213237B2A9400701D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461064623786FF8003C2532 /* Assets.xcassets */; };
+		84696216237BD13A00701D9B /* ShareDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696215237BD13A00701D9B /* ShareDataView.swift */; };
+		84696218237BD22600701D9B /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696217237BD22600701D9B /* Period.swift */; };
+		8469621A237BD24C00701D9B /* TimeInterval+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696219237BD24C00701D9B /* TimeInterval+Constants.swift */; };
+		84696221237BD2C800701D9B /* ShareDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696220237BD2C800701D9B /* ShareDataSourceProtocol.swift */; };
+		8485C813237AE948000E6E79 /* SharePlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C812237AE948000E6E79 /* SharePlotViewController.swift */; };
+		8485C816237AEB17000E6E79 /* SharePlotPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */; };
+		8485C818237AEB22000E6E79 /* SharePlotInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */; };
+		8485C81A237AEB92000E6E79 /* SharePlotFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C819237AEB92000E6E79 /* SharePlotFactory.swift */; };
+		8485C81E237B0A18000E6E79 /* DataValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C81D237B0A18000E6E79 /* DataValueFormatter.swift */; };
+		8485C820237B1F36000E6E79 /* UIView+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C81F237B1F36000E6E79 /* UIView+Properties.swift */; };
+		E2C797B356B81D2086FC047C /* Pods_SkybondsTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8407C460237C727200CCC17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8461063223786FF6003C2532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8407C44B237C726C00CCC17E;
+			remoteInfo = TestsHostApp;
+		};
 		8461065123786FF8003C2532 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8461063223786FF6003C2532 /* Project object */;
@@ -27,6 +55,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F2DD04CA3F2AE79603C787 /* Pods-SkybondsTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTask.debug.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		2B4AC333BA4354B568BE61B9 /* Pods_SkybondsTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkybondsTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D6F8CE175C13666FA801A6 /* Pods-SkybondsTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTaskTests/Pods-SkybondsTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		8407C441237C66B000CCC17E /* SharePlotInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotInteractorTests.swift; sourceTree = "<group>"; };
+		8407C444237C675F00CCC17E /* SharePlotInteractorDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotInteractorDelegateMock.swift; sourceTree = "<group>"; };
+		8407C446237C689C00CCC17E /* ShareDataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataSourceMock.swift; sourceTree = "<group>"; };
+		8407C44C237C726C00CCC17E /* TestsHostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsHostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407C44E237C726C00CCC17E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8407C450237C726C00CCC17E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8407C452237C726C00CCC17E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8407C455237C726C00CCC17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8407C457237C726D00CCC17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8407C45A237C726D00CCC17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8407C45C237C726D00CCC17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407C462237C74F300CCC17E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8461063A23786FF6003C2532 /* SkybondsTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkybondsTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461063D23786FF6003C2532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8461063F23786FF6003C2532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,15 +79,36 @@
 		8461064923786FF8003C2532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8461064B23786FF8003C2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8461065023786FF8003C2532 /* SkybondsTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkybondsTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkybondsTestTaskTests.swift; sourceTree = "<group>"; };
 		8461065623786FF8003C2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84610662237AA4FE003C2532 /* RandomShareDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomShareDataSource.swift; sourceTree = "<group>"; };
+		84696215237BD13A00701D9B /* ShareDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataView.swift; sourceTree = "<group>"; };
+		84696217237BD22600701D9B /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		84696219237BD24C00701D9B /* TimeInterval+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Constants.swift"; sourceTree = "<group>"; };
+		84696220237BD2C800701D9B /* ShareDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataSourceProtocol.swift; sourceTree = "<group>"; };
+		8485C812237AE948000E6E79 /* SharePlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotViewController.swift; sourceTree = "<group>"; };
+		8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotPresenter.swift; sourceTree = "<group>"; };
+		8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotInteractor.swift; sourceTree = "<group>"; };
+		8485C819237AEB92000E6E79 /* SharePlotFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotFactory.swift; sourceTree = "<group>"; };
+		8485C81D237B0A18000E6E79 /* DataValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValueFormatter.swift; sourceTree = "<group>"; };
+		8485C81F237B1F36000E6E79 /* UIView+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Properties.swift"; sourceTree = "<group>"; };
+		8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTask.release.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkybondsTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkybondsTestTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-SkybondsTestTaskTests/Pods-SkybondsTestTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8407C449237C726C00CCC17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8461063723786FF6003C2532 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C797B356B81D2086FC047C /* Pods_SkybondsTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +116,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAC5D0370290F2AD18037B8 /* Pods_SkybondsTestTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F42CE651023337A8A53B1A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F2DD04CA3F2AE79603C787 /* Pods-SkybondsTestTask.debug.xcconfig */,
+				8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */,
+				F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */,
+				83D6F8CE175C13666FA801A6 /* Pods-SkybondsTestTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8407C443237C66DC00CCC17E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8407C444237C675F00CCC17E /* SharePlotInteractorDelegateMock.swift */,
+				8407C446237C689C00CCC17E /* ShareDataSourceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8407C44D237C726C00CCC17E /* TestsHostApp */ = {
+			isa = PBXGroup;
+			children = (
+				8407C44E237C726C00CCC17E /* AppDelegate.swift */,
+				8407C450237C726C00CCC17E /* SceneDelegate.swift */,
+				8407C452237C726C00CCC17E /* ViewController.swift */,
+				8407C454237C726C00CCC17E /* Main.storyboard */,
+				8407C457237C726D00CCC17E /* Assets.xcassets */,
+				8407C459237C726D00CCC17E /* LaunchScreen.storyboard */,
+				8407C45C237C726D00CCC17E /* Info.plist */,
+			);
+			path = TestsHostApp;
+			sourceTree = "<group>";
+		};
 		8461063123786FF6003C2532 = {
 			isa = PBXGroup;
 			children = (
+				8407C462237C74F300CCC17E /* README.md */,
 				8461063C23786FF6003C2532 /* SkybondsTestTask */,
 				8461065323786FF8003C2532 /* SkybondsTestTaskTests */,
+				8407C44D237C726C00CCC17E /* TestsHostApp */,
 				8461063B23786FF6003C2532 /* Products */,
+				7F42CE651023337A8A53B1A3 /* Pods */,
+				B00A8FDEC5D453E9E0F146A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +175,7 @@
 			children = (
 				8461063A23786FF6003C2532 /* SkybondsTestTask.app */,
 				8461065023786FF8003C2532 /* SkybondsTestTaskTests.xctest */,
+				8407C44C237C726C00CCC17E /* TestsHostApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +183,11 @@
 		8461063C23786FF6003C2532 /* SkybondsTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				8469621E237BD27D00701D9B /* UIKIt+Extensions */,
+				8469621D237BD26E00701D9B /* Constants */,
+				8485C81C237B0A01000E6E79 /* Chart */,
+				8485C814237AE952000E6E79 /* SharePlotComponent */,
+				84610661237AA4EB003C2532 /* Model */,
 				8461063D23786FF6003C2532 /* AppDelegate.swift */,
 				8461063F23786FF6003C2532 /* SceneDelegate.swift */,
 				8461064123786FF6003C2532 /* ViewController.swift */,
@@ -93,22 +202,113 @@
 		8461065323786FF8003C2532 /* SkybondsTestTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */,
+				8407C443237C66DC00CCC17E /* Mocks */,
 				8461065623786FF8003C2532 /* Info.plist */,
+				8407C441237C66B000CCC17E /* SharePlotInteractorTests.swift */,
 			);
 			path = SkybondsTestTaskTests;
+			sourceTree = "<group>";
+		};
+		84610661237AA4EB003C2532 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8469621F237BD2B500701D9B /* DataSource */,
+				84696214237BD12500701D9B /* ViewModels */,
+				84696217237BD22600701D9B /* Period.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84696214237BD12500701D9B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84696215237BD13A00701D9B /* ShareDataView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8469621D237BD26E00701D9B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84696219237BD24C00701D9B /* TimeInterval+Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8469621E237BD27D00701D9B /* UIKIt+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8485C81F237B1F36000E6E79 /* UIView+Properties.swift */,
+			);
+			path = "UIKIt+Extensions";
+			sourceTree = "<group>";
+		};
+		8469621F237BD2B500701D9B /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				84610662237AA4FE003C2532 /* RandomShareDataSource.swift */,
+				84696220237BD2C800701D9B /* ShareDataSourceProtocol.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		8485C814237AE952000E6E79 /* SharePlotComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8485C812237AE948000E6E79 /* SharePlotViewController.swift */,
+				8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */,
+				8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */,
+				8485C819237AEB92000E6E79 /* SharePlotFactory.swift */,
+			);
+			path = SharePlotComponent;
+			sourceTree = "<group>";
+		};
+		8485C81C237B0A01000E6E79 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8485C81D237B0A18000E6E79 /* DataValueFormatter.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		B00A8FDEC5D453E9E0F146A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD66D9EAA87320C20A69489C /* Pods_SkybondsTestTask.framework */,
+				2B4AC333BA4354B568BE61B9 /* Pods_SkybondsTestTaskTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8407C44B237C726C00CCC17E /* TestsHostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8407C45D237C726D00CCC17E /* Build configuration list for PBXNativeTarget "TestsHostApp" */;
+			buildPhases = (
+				8407C448237C726C00CCC17E /* Sources */,
+				8407C449237C726C00CCC17E /* Frameworks */,
+				8407C44A237C726C00CCC17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestsHostApp;
+			productName = TestsHostApp;
+			productReference = 8407C44C237C726C00CCC17E /* TestsHostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8461063923786FF6003C2532 /* SkybondsTestTask */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8461065923786FF8003C2532 /* Build configuration list for PBXNativeTarget "SkybondsTestTask" */;
 			buildPhases = (
+				87378BD1B394E619EA83E678 /* [CP] Check Pods Manifest.lock */,
 				8461063623786FF6003C2532 /* Sources */,
 				8461063723786FF6003C2532 /* Frameworks */,
 				8461063823786FF6003C2532 /* Resources */,
+				1BDC241438972FBC76503AD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8461065C23786FF8003C2532 /* Build configuration list for PBXNativeTarget "SkybondsTestTaskTests" */;
 			buildPhases = (
+				8087D13DE6A773F4E4F1A53F /* [CP] Check Pods Manifest.lock */,
 				8461064C23786FF8003C2532 /* Sources */,
 				8461064D23786FF8003C2532 /* Frameworks */,
 				8461064E23786FF8003C2532 /* Resources */,
@@ -131,6 +332,7 @@
 			);
 			dependencies = (
 				8461065223786FF8003C2532 /* PBXTargetDependency */,
+				8407C461237C727200CCC17E /* PBXTargetDependency */,
 			);
 			name = SkybondsTestTaskTests;
 			productName = SkybondsTestTaskTests;
@@ -143,10 +345,13 @@
 		8461063223786FF6003C2532 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Sergey Kharchenko";
 				TargetAttributes = {
+					8407C44B237C726C00CCC17E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8461063923786FF6003C2532 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -171,18 +376,29 @@
 			targets = (
 				8461063923786FF6003C2532 /* SkybondsTestTask */,
 				8461064F23786FF8003C2532 /* SkybondsTestTaskTests */,
+				8407C44B237C726C00CCC17E /* TestsHostApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8407C44A237C726C00CCC17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407C45B237C726D00CCC17E /* LaunchScreen.storyboard in Resources */,
+				8407C458237C726D00CCC17E /* Assets.xcassets in Resources */,
+				8407C456237C726C00CCC17E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8461063823786FF6003C2532 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8461064A23786FF8003C2532 /* LaunchScreen.storyboard in Resources */,
-				8461064723786FF8003C2532 /* Assets.xcassets in Resources */,
 				8461064523786FF6003C2532 /* Main.storyboard in Resources */,
+				84696213237B2A9400701D9B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +411,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BDC241438972FBC76503AD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkybondsTestTask/Pods-SkybondsTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8087D13DE6A773F4E4F1A53F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkybondsTestTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87378BD1B394E619EA83E678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkybondsTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		8407C448237C726C00CCC17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407C453237C726C00CCC17E /* ViewController.swift in Sources */,
+				8407C44F237C726C00CCC17E /* AppDelegate.swift in Sources */,
+				8407C451237C726C00CCC17E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8461063623786FF6003C2532 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8461064223786FF6003C2532 /* ViewController.swift in Sources */,
+				8485C820237B1F36000E6E79 /* UIView+Properties.swift in Sources */,
 				8461063E23786FF6003C2532 /* AppDelegate.swift in Sources */,
+				8469621A237BD24C00701D9B /* TimeInterval+Constants.swift in Sources */,
+				84696216237BD13A00701D9B /* ShareDataView.swift in Sources */,
 				8461064023786FF6003C2532 /* SceneDelegate.swift in Sources */,
+				8485C81A237AEB92000E6E79 /* SharePlotFactory.swift in Sources */,
+				8485C816237AEB17000E6E79 /* SharePlotPresenter.swift in Sources */,
+				8485C813237AE948000E6E79 /* SharePlotViewController.swift in Sources */,
+				84610663237AA4FE003C2532 /* RandomShareDataSource.swift in Sources */,
+				8485C818237AEB22000E6E79 /* SharePlotInteractor.swift in Sources */,
+				84696218237BD22600701D9B /* Period.swift in Sources */,
+				8485C81E237B0A18000E6E79 /* DataValueFormatter.swift in Sources */,
+				84696221237BD2C800701D9B /* ShareDataSourceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,13 +511,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8461065523786FF8003C2532 /* SkybondsTestTaskTests.swift in Sources */,
+				8407C445237C675F00CCC17E /* SharePlotInteractorDelegateMock.swift in Sources */,
+				8407C442237C66B000CCC17E /* SharePlotInteractorTests.swift in Sources */,
+				8407C447237C689C00CCC17E /* ShareDataSourceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8407C461237C727200CCC17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8407C44B237C726C00CCC17E /* TestsHostApp */;
+			targetProxy = 8407C460237C727200CCC17E /* PBXContainerItemProxy */;
+		};
 		8461065223786FF8003C2532 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8461063923786FF6003C2532 /* SkybondsTestTask */;
@@ -225,6 +533,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8407C454237C726C00CCC17E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8407C455237C726C00CCC17E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8407C459237C726D00CCC17E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8407C45A237C726D00CCC17E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		8461064323786FF6003C2532 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -244,6 +568,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8407C45E237C726D00CCC17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestsHostApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergeykharchenko.TestsHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8407C45F237C726D00CCC17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestsHostApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergeykharchenko.TestsHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8461065723786FF8003C2532 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,10 +720,12 @@
 		};
 		8461065A23786FF8003C2532 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F2DD04CA3F2AE79603C787 /* Pods-SkybondsTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SkybondsTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +739,12 @@
 		};
 		8461065B23786FF8003C2532 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8962C7D41612489DD7381B7B /* Pods-SkybondsTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SkybondsTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +758,7 @@
 		};
 		8461065D23786FF8003C2532 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F069EE52AD6020650B9933DE /* Pods-SkybondsTestTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +780,7 @@
 		};
 		8461065E23786FF8003C2532 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D6F8CE175C13666FA801A6 /* Pods-SkybondsTestTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -437,6 +803,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8407C45D237C726D00CCC17E /* Build configuration list for PBXNativeTarget "TestsHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407C45E237C726D00CCC17E /* Debug */,
+				8407C45F237C726D00CCC17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8461063523786FF6003C2532 /* Build configuration list for PBXProject "SkybondsTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
