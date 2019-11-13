@@ -69,6 +69,7 @@
 		8407C457237C726D00CCC17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8407C45A237C726D00CCC17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8407C45C237C726D00CCC17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407C462237C74F300CCC17E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8461063A23786FF6003C2532 /* SkybondsTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkybondsTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461063D23786FF6003C2532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8461063F23786FF6003C2532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 		8461063123786FF6003C2532 = {
 			isa = PBXGroup;
 			children = (
+				8407C462237C74F300CCC17E /* README.md */,
 				8461063C23786FF6003C2532 /* SkybondsTestTask */,
 				8461065323786FF8003C2532 /* SkybondsTestTaskTests */,
 				8407C44D237C726C00CCC17E /* TestsHostApp */,
