@@ -19,7 +19,7 @@ class DateValueFormatter: IAxisValueFormatter {
 		case .day:
 			dateFormatter.dateFormat = "dd.MM"
 		case .month:
-			dateFormatter.dateFormat = "MMMM yy"
+			dateFormatter.dateFormat = "MM.yy"
 		}
 	}
     

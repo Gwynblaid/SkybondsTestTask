@@ -52,11 +52,12 @@ extension SharePlotPresenter: SharePlotPresenterProtocol {
 extension SharePlotPresenter: SharePlotInteractorDelegate {
 	func updateDataFinished(with result: Result<ShareDataView, Error>) {
 		DispatchQueue.main.async { [weak self] in
+			guard let self = self else { return }
 			switch result {
 			case let .success(data):
-				self?.view?.plot(data: data)
+				self.view?.plot(data: data, dateFormatType: (self.interactor.period > .halfYear) ? .month : .day)
 			case let .failure(error):
-				self?.view?.show(error: error)
+				self.view?.show(error: error)
 			}
 		}
 	}

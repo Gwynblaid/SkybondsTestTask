@@ -14,7 +14,7 @@ protocol SharePlotViewProtocol: AnyObject {
 	func show(error: Error)
 	func setDataTypeTitle(_ title: String)
 	
-	func plot(data: ShareDataView)
+	func plot(data: ShareDataView, dateFormatType: DateValueFormatter.FormatType)
 }
 
 class SharePlotViewController: UIViewController {
@@ -33,7 +33,9 @@ class SharePlotViewController: UIViewController {
 }
 
 extension SharePlotViewController: SharePlotViewProtocol {
-	func plot(data: ShareDataView) {
+	func plot(data: ShareDataView, dateFormatType: DateValueFormatter.FormatType) {
+		chartView.xAxis.valueFormatter = DateValueFormatter(type: dateFormatType)
+		
 		let timeInterval = data.period.upperBound.timeIntervalSince(data.period.lowerBound) / TimeInterval(data.data.count)
 		var iterator = data.period.lowerBound.timeIntervalSince1970
 		

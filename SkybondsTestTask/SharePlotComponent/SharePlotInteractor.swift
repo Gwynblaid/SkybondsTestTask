@@ -16,7 +16,6 @@ protocol SharePlotInteractorDelegate: AnyObject {
 	func updateDataFinished(with result: Result<ShareDataView, Error>)
 }
 
-
 class SharePlotInteractor {
 	// Injections
 	let dataSource: ShareDataSourceProtocol
@@ -44,9 +43,27 @@ class SharePlotInteractor {
 	}
 }
 
+extension SharePlotInteractor {
+	enum Errors: LocalizedError {
+		case emptyISIN
+		
+		var localizedDescription: String {
+			switch self {
+			case .emptyISIN:
+				return NSLocalizedString("ISIN is empty", comment: "ISIN is empty error")
+			}
+		}
+	}
+}
+
 private extension SharePlotInteractor {
 	// Так же можно организовать кэширование результатов, но для простоты этого делать не будем
 	func requestShareData() {
+		if isin == "" {
+			self.delegate?.updateDataFinished(with: .failure(Errors.emptyISIN))
+			return
+		}
+		
 		let completion: (Result<[Double], Error>) -> Void = { [weak self] result in
 			guard let self = self else { return }
 			switch result {
@@ -59,6 +76,7 @@ private extension SharePlotInteractor {
 				self.delegate?.updateDataFinished(with: .failure(error))
 			}
 		}
+		
 		switch dataType {
 		case .price:
 			dataSource.getShareDataPrice(for: isin, in: period, completion: completion)
