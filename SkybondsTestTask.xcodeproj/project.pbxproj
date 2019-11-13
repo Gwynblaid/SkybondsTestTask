@@ -14,8 +14,12 @@
 		8461064523786FF6003C2532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064323786FF6003C2532 /* Main.storyboard */; };
 		8461064A23786FF8003C2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461064823786FF8003C2532 /* LaunchScreen.storyboard */; };
 		8461065523786FF8003C2532 /* SkybondsTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */; };
-		84610663237AA4FE003C2532 /* ShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84610662237AA4FE003C2532 /* ShareData.swift */; };
+		84610663237AA4FE003C2532 /* RandomShareDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84610662237AA4FE003C2532 /* RandomShareDataSource.swift */; };
 		84696213237B2A9400701D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461064623786FF8003C2532 /* Assets.xcassets */; };
+		84696216237BD13A00701D9B /* ShareDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696215237BD13A00701D9B /* ShareDataView.swift */; };
+		84696218237BD22600701D9B /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696217237BD22600701D9B /* Period.swift */; };
+		8469621A237BD24C00701D9B /* TimeInterval+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696219237BD24C00701D9B /* TimeInterval+Constants.swift */; };
+		84696221237BD2C800701D9B /* ShareDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84696220237BD2C800701D9B /* ShareDataSourceProtocol.swift */; };
 		8485C813237AE948000E6E79 /* SharePlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C812237AE948000E6E79 /* SharePlotViewController.swift */; };
 		8485C816237AEB17000E6E79 /* SharePlotPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */; };
 		8485C818237AEB22000E6E79 /* SharePlotInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */; };
@@ -50,7 +54,11 @@
 		8461065023786FF8003C2532 /* SkybondsTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkybondsTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461065423786FF8003C2532 /* SkybondsTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkybondsTestTaskTests.swift; sourceTree = "<group>"; };
 		8461065623786FF8003C2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84610662237AA4FE003C2532 /* ShareData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareData.swift; sourceTree = "<group>"; };
+		84610662237AA4FE003C2532 /* RandomShareDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomShareDataSource.swift; sourceTree = "<group>"; };
+		84696215237BD13A00701D9B /* ShareDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataView.swift; sourceTree = "<group>"; };
+		84696217237BD22600701D9B /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		84696219237BD24C00701D9B /* TimeInterval+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Constants.swift"; sourceTree = "<group>"; };
+		84696220237BD2C800701D9B /* ShareDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataSourceProtocol.swift; sourceTree = "<group>"; };
 		8485C812237AE948000E6E79 /* SharePlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotViewController.swift; sourceTree = "<group>"; };
 		8485C815237AEB17000E6E79 /* SharePlotPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotPresenter.swift; sourceTree = "<group>"; };
 		8485C817237AEB22000E6E79 /* SharePlotInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlotInteractor.swift; sourceTree = "<group>"; };
@@ -116,6 +124,8 @@
 		8461063C23786FF6003C2532 /* SkybondsTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				8469621E237BD27D00701D9B /* UIKIt+Extensions */,
+				8469621D237BD26E00701D9B /* Constants */,
 				8485C81C237B0A01000E6E79 /* Chart */,
 				8485C814237AE952000E6E79 /* SharePlotComponent */,
 				84610661237AA4EB003C2532 /* Model */,
@@ -126,7 +136,6 @@
 				8461064623786FF8003C2532 /* Assets.xcassets */,
 				8461064823786FF8003C2532 /* LaunchScreen.storyboard */,
 				8461064B23786FF8003C2532 /* Info.plist */,
-				8485C81F237B1F36000E6E79 /* UIView+Properties.swift */,
 			);
 			path = SkybondsTestTask;
 			sourceTree = "<group>";
@@ -143,9 +152,44 @@
 		84610661237AA4EB003C2532 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				84610662237AA4FE003C2532 /* ShareData.swift */,
+				8469621F237BD2B500701D9B /* DataSource */,
+				84696214237BD12500701D9B /* ViewModels */,
+				84696217237BD22600701D9B /* Period.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		84696214237BD12500701D9B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84696215237BD13A00701D9B /* ShareDataView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8469621D237BD26E00701D9B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84696219237BD24C00701D9B /* TimeInterval+Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8469621E237BD27D00701D9B /* UIKIt+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8485C81F237B1F36000E6E79 /* UIView+Properties.swift */,
+			);
+			path = "UIKIt+Extensions";
+			sourceTree = "<group>";
+		};
+		8469621F237BD2B500701D9B /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				84610662237AA4FE003C2532 /* RandomShareDataSource.swift */,
+				84696220237BD2C800701D9B /* ShareDataSourceProtocol.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 		8485C814237AE952000E6E79 /* SharePlotComponent */ = {
@@ -347,13 +391,17 @@
 				8461064223786FF6003C2532 /* ViewController.swift in Sources */,
 				8485C820237B1F36000E6E79 /* UIView+Properties.swift in Sources */,
 				8461063E23786FF6003C2532 /* AppDelegate.swift in Sources */,
+				8469621A237BD24C00701D9B /* TimeInterval+Constants.swift in Sources */,
+				84696216237BD13A00701D9B /* ShareDataView.swift in Sources */,
 				8461064023786FF6003C2532 /* SceneDelegate.swift in Sources */,
 				8485C81A237AEB92000E6E79 /* SharePlotFactory.swift in Sources */,
 				8485C816237AEB17000E6E79 /* SharePlotPresenter.swift in Sources */,
 				8485C813237AE948000E6E79 /* SharePlotViewController.swift in Sources */,
-				84610663237AA4FE003C2532 /* ShareData.swift in Sources */,
+				84610663237AA4FE003C2532 /* RandomShareDataSource.swift in Sources */,
 				8485C818237AEB22000E6E79 /* SharePlotInteractor.swift in Sources */,
+				84696218237BD22600701D9B /* Period.swift in Sources */,
 				8485C81E237B0A18000E6E79 /* DataValueFormatter.swift in Sources */,
+				84696221237BD2C800701D9B /* ShareDataSourceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,7 @@ import Foundation
 import UIKit
 
 protocol SharePlotFactoryProtocol {
-	func sharePlotViewController(with ISIN: String) -> SharePlotViewController
+	func sharePlotViewController(with isin: String) -> SharePlotViewController
 }
 
 class SharePlotFactory: SharePlotFactoryProtocol {
@@ -18,12 +18,11 @@ class SharePlotFactory: SharePlotFactoryProtocol {
 		self.storyboard = storyboard
 	}
 	
-	func sharePlotViewController(with ISIN: String) -> SharePlotViewController {
+	func sharePlotViewController(with isin: String) -> SharePlotViewController {
 		guard let viewController = storyboard?.instantiateViewController(withIdentifier: "SharePlotViewController") as? SharePlotViewController else {
 			fatalError("Can't instanciate SharePlotViewController from:\(String(describing: storyboard)) with identifier: SharePlotViewController")
 		}
-		let interactor = SharePlotInteractor(dataSource: shareDataSource)
-		interactor.shareID = ISIN
+		let interactor = SharePlotInteractor(dataSource: shareDataSource, isin: isin)
 		let presenter = SharePlotPresenter(view: viewController, interactor: interactor)
 		viewController.presenter = presenter
 		interactor.delegate = presenter
